@@ -4,8 +4,8 @@ package test.example.com.demo;
 public class Client {
     public static void main(String[] args) {
         Computer computer = new Computer();
-//        SDCard sdCard = new SDCardImpl();
-//        System.out.println(computer.readSD(sdCard));
+        SDCard sdCard = new SDCardImpl();
+        System.out.println(computer.readSD(sdCard));
 
         System.out.println("------------");
 
