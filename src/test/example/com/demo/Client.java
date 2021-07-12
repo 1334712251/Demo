@@ -11,5 +11,9 @@ public class Client {
 
         SDAdapterTF adapter = new SDAdapterTF();
         System.out.println(computer.readSD(adapter));
+
+        System.out.println("ppppppppppppppppp");
+        computer.writeSD(adapter,"Ss");
+//        System.out.println(computer.writeSD());
     }
 }

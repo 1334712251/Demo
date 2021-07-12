@@ -9,4 +9,8 @@ public class Computer {
         }
         return sdCard.readSD();
     }
+
+    public void writeSD(SDCard sdCard,String msg) {
+        sdCard.writeSD(msg);
+    }
 }
