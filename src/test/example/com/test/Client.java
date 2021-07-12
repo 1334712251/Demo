@@ -22,5 +22,6 @@ public class Client {
         food2 = new Bacon(food2);
         //花费的价格
         System.out.println(food2.getDesc() + " " + food2.cost() + "元");
+
     }
 }
