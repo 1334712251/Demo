@@ -19,7 +19,6 @@ public class Client {
         System.out.println("========");
         //点一份加培根的炒面
         FastFood food2 = new FriedNoodles();
-
         food2 = new Bacon(food2);
         //花费的价格
         System.out.println(food2.getDesc() + " " + food2.cost() + "元");
