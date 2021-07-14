@@ -16,11 +16,19 @@ public class Client {
         //花费的价格
         System.out.println(food1.getDesc() + " " + food1.cost() + "元");
 
+//        food1 = new Bacon(food1);
+//        System.out.println("sss" + food1.getDesc());
+//
+//        System.out.println(food1.getDesc() + " " + food1.cost() + "元");
+
         System.out.println("========");
         //点一份加培根的炒面
         FastFood food2 = new FriedNoodles();
         food2 = new Bacon(food2);
         //花费的价格
         System.out.println(food2.getDesc() + " " + food2.cost() + "元");
+
+//        food2 = new Egg(food2);
+//        System.out.println(food2.getDesc() + " " + food2.cost() + "元");
     }
 }
