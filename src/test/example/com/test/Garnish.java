@@ -1,6 +1,6 @@
 package test.example.com.test;
 
-//配料类
+//配料类(装饰者类)
 public abstract class Garnish extends FastFood {
 
     private FastFood fastFood;

@@ -4,6 +4,7 @@ package test.example.com.test;
 public class Bacon extends Garnish {
 
     public Bacon(FastFood fastFood) {
+
         super(fastFood,2,"培根");
     }
 

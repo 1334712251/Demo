@@ -7,13 +7,12 @@ public class Egg extends Garnish {
         super(fastFood,1,"鸡蛋");
     }
 
-    @Override
     public float cost() {
-        return super.getPrice() + super.getFastFood().getPrice();
+        return getPrice() + getFastFood().getPrice();
     }
 
     @Override
     public String getDesc() {
-        return super.getDesc() + super.getFastFood().getDesc();
+        return super.getDesc() + getFastFood().getDesc();
     }
 }
