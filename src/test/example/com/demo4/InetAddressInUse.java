@@ -15,12 +15,10 @@ public class InetAddressInUse extends KeyAdapter {
     }
 
     public static void main(String[] args) throws Exception {
-
-
         Robot robot = new Robot();
-        Thread.sleep(10000);
-        for (int i=0;i<100;i++){
-            robot.keyPress(KeyEvent.VK_RIGHT);
-        }
+//        for (int i=0;i<100;i++){
+//            robot.keyPress(KeyEvent.VK_RIGHT);
+//        }
+        robot.keyPress(32 );
     }
 }
